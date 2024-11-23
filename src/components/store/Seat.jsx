@@ -108,7 +108,7 @@ const Seat = () => {
                     outline: "none",
                   }}
                 >
-                  {getSeatIcon(seat.status)}
+                  {getSeatIcon(seat.status)} 
                 </button>
               ))}
           </div>
