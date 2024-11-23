@@ -1,0 +1,193 @@
+.footer {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    top: 330px;
+    width: 1400px;
+}
+.logo-footer {
+    position: absolute;
+    /* top: 20px; */
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+    align-items: center;
+    margin-right: 960px;
+}
+hr {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    border: none;
+    border: 1px solid #ccc;
+}
+
+.info-area-footer {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    margin-top: 100px;
+}
+.text-footer {
+    position: relative;
+    /* top: 30px; */
+    /* display: flex; */
+    flex-direction: column;
+    width: 500px;
+    height: 260px;
+}
+.between__footer {
+    position: relative;
+    margin-bottom: 15px;
+    top: 70px;
+    gap: 5px;
+    display: flex;
+    /* justify-content: start; */
+    
+}
+.about-footer {
+    /* display: flex; */
+    flex-direction: column;
+    gap: 10px;
+    width: 205px;
+    height: 110px;
+
+}
+.help-footer {
+    text-align: left;
+    /* display: flex; */
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 10px;
+    width: 205px;
+    height: 110px;
+}
+.legal-footer {
+    /* display: flex; */
+    flex-direction: column;
+    gap: 10px;
+    width: 205px;
+    height: 110px;
+}
+.support-footer {
+    display: flex;
+    justify-content: flex-start;
+}
+.terms-footer {
+    display: flex;
+    justify-content: flex-start;
+    font-size: 18px;
+    margin-top: 10px;
+    gap: 10px;
+}
+.text-about {
+    position: relative;
+    display: flex;
+    height: 90px;
+    font-size: 14px;
+    font-weight: 300;
+    margin-top: 20px;
+}
+.contacts-footer {
+    height: 70px;
+}
+.contact__head3 {
+    font-size: 24px;
+    font-weight: 500;
+    margin-bottom: 20px;
+}
+.email-area-footer {
+    position: relative;
+    top: 70px;
+    display: flex;
+    gap: 280px;
+    height: 80px;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+
+}
+.email-text {
+    display: flex;
+    justify-content: center;
+    font-size: 24px;
+    font-weight: 500;
+}
+.email-form {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.email-input {
+    margin-right: 30px;
+    width: 350px;
+    height: 35px;
+    border-radius: 10px;
+    border: 1px solid #ccc;
+    padding: 10px;
+    font-size: 18px;
+}
+.post-icon {
+    padding-right: 10px;
+    position: absolute;
+    display: flex;
+    left: 4px;
+}
+.email-btn {
+    width: 40px;
+    height: 20px;
+    position: relative;
+    display: flex;
+    border: none;
+    border-radius: 12px;
+    justify-content: center;
+    align-items: center;
+    background-color: #fff;
+    right: 80px;
+}
+.social-area-footer {
+    position: relative;
+    top: 150px;
+    flex-direction: row;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    gap: 20px
+}
+.links-footer {
+    position: relative;
+    /* width: 600px; */
+    right: 180px;
+}
+.links-pages {
+    display: inline-flex;
+    position: relative;
+    justify-content: flex-start;
+    flex-direction: row;
+    width: 400px;
+    gap: 50px;
+    
+}
+.links-page {
+    justify-content: center;
+    width: 50px;
+    position: relative;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    /* gap: 20px; */
+}
+.links-social {
+    position: relative;
+    display: flex;
+    gap: 10px;
+    right: -150px;
+}
+.icon-shadow {
+    position: relative;
+    display: flex;
+    top: 200px;
+    gap: 700px;
+}
