@@ -1,5 +1,3 @@
-
-
 import { create } from "zustand";
 
 const seatsData = [
@@ -363,17 +361,3 @@ const useSeatsStore = create((set) => ({
 }));
 
 export default useSeatsStore;
-
-// const useSeatsStore = create((set) => ({
-//   seats: seatsData,
-//   updateSeatStatus: (section, row, col, newStatus) =>
-//     set((state) => ({
-//       seats: state.seats.map((seat) =>
-//         seat.section === section && seat.row === row && seat.col === col
-//           ? { ...seat, status: newStatus }
-//           : seat
-//       ),
-//     })),
-// }));
-
-// export default useSeatsStore;

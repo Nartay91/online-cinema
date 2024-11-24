@@ -103,7 +103,7 @@ const Seat = () => {
                     left: `${seat.left}px`, // Устанавливаем координаты
                     cursor: "pointer",
                     border: "none",
-                    background: "none",
+                    background: "transparent",
                     padding: 0,
                     outline: "none",
                   }}
