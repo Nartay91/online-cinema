@@ -1,5 +1,7 @@
-body, html {
-  /* margin: 0; */
+
+
+/* body, html {
+  margin: 0; 
   padding: 0;
   font-family: Arial, sans-serif;
   background: #f7f7f7;
@@ -58,7 +60,7 @@ h1 {
 .input-group.checkbox a {
   color: #ec0f0f;
   text-decoration: none;
-}
+} 
 
 .btn {
   width: 95%;
@@ -118,7 +120,7 @@ h1 {
 .sign-in-text a {
   color: #f30606;
   text-decoration: none;
-}
+} */
 
 
 /* .App {

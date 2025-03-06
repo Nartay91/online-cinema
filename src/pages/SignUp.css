@@ -1,0 +1,232 @@
+.signup-container {
+  display: flex;
+  flex-direction: row;
+  width: 1200px;
+  /* gap: 0; */
+  margin-top: 20px;
+}
+.left__side__sign_in {
+  width: 600px;
+  height: 700px;
+  background-color: #F6F6F6;
+  border-top-left-radius: 10px;
+  border-bottom-left-radius: 10px;
+}
+
+.poster {
+  width: 600px;
+  height: 700px;
+}
+.flip-container {
+  perspective: 1000px;
+  height: 560px;
+  width: 400px;
+  /* background-color: #F6F6F6; */
+  margin: auto;
+}
+
+.flipper {
+  width: 100%;
+  transition: transform 0.9s;
+  transform-style: preserve-3d;
+  position: relative;
+}
+
+.flip-container.flipped .flipper {
+  transform: rotateY(180deg);
+}
+
+.form {
+  backface-visibility: hidden;
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  /* justify-content: center; */
+  margin-top: 50px;
+  /* width: 100%; */
+  /* padding: 20px; */
+  /* box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1); */
+  /* border-radius: 10px; */
+  height: 560px;
+  width: 400px;
+  background-color: #F6F6F6;
+}
+
+.signup-form {
+  /* height: 560px;
+  width: 400px;
+  background-color: #F6F6F6; */
+  z-index: 2;
+}
+.google__signin {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 400px;
+  height: 52px;
+  padding: 10px;
+  background-color: #fff;
+  border-radius: 15px;
+  border: none;
+  gap: 5px;
+  margin-bottom: 24px;
+}
+.divider {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 42px;
+  margin: 0;
+}
+.divider2 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 4px;
+}
+.or {
+  font-size: 16px;
+  margin-left: 3px;
+  margin-right: 3px;
+}
+
+.login-form {
+  margin-top: 100px;
+  /* height: 560px;
+  width: 400px;
+  background-color: #F6F6F6; */
+  transform: rotateY(180deg);
+  z-index: 1;
+}
+.inputs__sign_in {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+  padding-left: 30px;
+  width: 360px;
+  height: 30px;
+  border: none;
+  border-radius: 15px;
+  font-size: 18px;
+  outline: none;
+  background-color: #fff;
+}
+
+.password-field {
+  position: relative;
+  width: 100%;
+}
+
+.toggle-password {
+  position: absolute;
+  right: 10px;
+  top: 75%;
+  transform: translateY(-50%);
+  cursor: pointer;
+  font-size: 24px;
+}
+.name__post_sign {
+  position: absolute;
+  left: 7px;
+  top: 162px
+  /* right: 10px; */
+  /* top: 30%;
+  transform: translateY(-50%); */
+}
+.name__email_sign {
+  position: absolute;
+  left: 7px;
+  top: 247px
+  /* right: 10px; */
+  /* top: 30%;
+  transform: translateY(-50%); */
+}
+.name__password_sign {
+  position: absolute;
+  left: 7px;
+  top: 43px
+}
+.name__email_login {
+  position: absolute;
+  left: 7px;
+  top: 165px
+}
+.name__password_login {
+  position: absolute;
+  left: 7px;
+  top: 45px
+}
+.sign_in_btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 390px;
+  height: 42px;
+  padding: 10px;
+  border: none;
+  border-radius: 15px;
+  font-size: 18px;
+  cursor: pointer;
+  color: #fff;
+  margin-top: 24px;
+  background-color: #3d42d4;
+}
+.sign_in_btn:hover {
+  background-color: #8385df;
+}
+.remember-me {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  margin-top: 24px;
+  width: 400px;
+  /* gap: 5px; */
+}
+.remember {
+  margin-left: 10px;
+  font-size: 18px;
+}
+.forgot-password {
+  font-size: 18px;
+  margin-right: 0;
+}
+.checkbox__circle {
+  appearance: none; 
+  width: 16px;
+  height: 16px;
+  border: 2px solid #333; 
+  border-radius: 50%; 
+  background-color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+}
+.checkbox__circle:checked {
+  background-color: #2539e6; /* Заливка при выборе */
+  border: 2px solid #333;
+}
+
+.labels_sign_in {
+  display: flex;
+  font-size: 20px;
+  margin-bottom: 5px;
+}
+
+.login-link {
+  text-align: center;
+  margin-top: 10px;
+  font-size: 18px;
+}
+
+.toggle-link {
+  background: none;
+  border: none;
+  color: #007bff;
+  cursor: pointer;
+  font-weight: bold;
+  font-size: 16px;
+}

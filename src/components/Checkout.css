@@ -1,0 +1,146 @@
+.header__checkout {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 10px;
+    font-size: 24px;
+}
+.checkout__form {
+    display: flex;
+    justify-self: center;
+    align-items: center;
+    margin-top: 50px;
+    width: 1232px;
+    flex-direction: column;
+}
+.cards_method {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    gap: 50px;
+}
+
+.payment_form {
+    display: flex;
+    flex-direction: column;
+    width: 510px;
+}
+.stop_timer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    font-size: 20px;
+    font-weight: 400;
+    color: red;
+    cursor: pointer;
+    background-color: rgb(240, 243, 245);
+    border: none;
+    border-radius: 5px;
+    width: 100px;
+    height: 50px;
+    margin-bottom: 100px;
+}
+.date_cvv {
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+    width: 510px;
+    gap: 180px;
+}
+.radio__3{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 40px;
+    border-bottom: 1px solid #ccc;
+    padding-bottom: 20px;
+}
+.option_card {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 24px;
+    font-weight: 500;
+    gap: 10px;
+}
+.option__radio {
+    font-size: 30px;
+}
+input[type="radio"], [type="checkbox"] {
+    transform: scale(1.5);
+    margin: 0;
+}
+.name__card {
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    font-size: 24px;
+    font-weight: 400;
+}
+.card__detail_1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+    font-weight: 400;
+    outline: none;
+    width: 510px;
+    height: 50px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+.card__detail_2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+    font-weight: 400;
+    outline: none;
+    width: 160px;
+    height: 50px;
+    /* gap: 200px; */
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+.card__privacy {
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    font-size: 18px;
+    font-weight: 400;
+    margin-bottom: 20px;
+    gap: 10px;
+    cursor: pointer;
+    margin-top: 100px;
+}
+.buy_tickets {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 24px;
+    font-weight: 700;
+    gap: 10px;
+    background-color: #3337BF;
+    color: #fff;
+    border: none;
+    border-radius: 10px;
+    width: 520px;
+    height: 60px;
+    cursor: pointer;
+    margin-top: 20px;
+}
+.checked__tickets {
+    display: flex;
+    align-items: center;
+    font-size: 28px;
+    font-weight: 400;
+}
+.payment__header {
+    display: flex;
+    align-items: center;
+    font-size: 28px;
+    font-weight: 500;
+    margin-bottom: 30px;
+}

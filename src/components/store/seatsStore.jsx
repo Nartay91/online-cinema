@@ -335,8 +335,6 @@ const seatsData = [
   { section: 4, row: 7, col: 7, status: "available", top: -165, left: 810 },
 ];
 
-
-
 const useSeatsStore = create((set) => ({
   seats: seatsData,
   

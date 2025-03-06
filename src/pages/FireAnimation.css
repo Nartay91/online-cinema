@@ -1,0 +1,58 @@
+.note {
+    position: relative;
+    margin: 10px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #fff;
+    transition: transform 0.3s ease-in-out, opacity 0.3s ease-in-out;
+  }
+  
+  .note.done {
+    border-color: green;
+    background-color: #f0fff0;
+  }
+  
+  .note.falling {
+    animation: breakIntoBricks 1s forwards;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 2px;
+  }
+  
+  .note-content {
+    grid-column: 1 / -1;
+    transition: transform 0.3s ease-in-out, opacity 0.3s ease-in-out;
+  }
+  
+  @keyframes breakIntoBricks {
+    0% {
+      opacity: 1;
+      transform: scale(1);
+    }
+    50% {
+      opacity: 0.8;
+      transform: scale(0.9);
+    }
+    100% {
+      opacity: 0;
+      transform: translateY(100px) rotate(45deg);
+    }
+  }
+  
+  /* Стили для кнопок */
+  footer button {
+    margin-right: 5px;
+    padding: 5px 10px;
+    border: none;
+    border-radius: 3px;
+    background-color: #007bff;
+    color: white;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  footer button:hover {
+    background-color: #0056b3;
+  }
+  

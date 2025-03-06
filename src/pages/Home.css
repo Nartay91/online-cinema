@@ -1,0 +1,155 @@
+.concert-slider {
+  display: flex;
+  width: 100%;
+  height: 700px;
+  /* margin-top: 100px; */
+  flex-direction: column;
+  text-align: center;
+  background-color: #0F1139;
+}
+.first_head {
+  display: flex;
+  flex-direction: column;
+  margin-top: 70px;
+  color: #fff;
+  gap: 10px;
+}
+.search-bar {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  margin-top: 70px;
+}
+
+.search-bar input,
+.search-bar select,
+.search-bar button {
+  outline: none;
+  padding: 8px 12px;
+  font-size: 14px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+}
+
+.slider-container {
+  position: relative;
+  display: flex;
+  /* margin-top: 10px; */
+  align-items: center;
+  justify-content: center;
+  width: 1400px;
+  /* height: 500px; */
+}
+.shadow {
+  position: absolute;
+  display: flex;
+  height: 250px;
+  background-color: #f8efef;
+  z-index: 1;
+  top: 300px;
+  flex-direction: column;
+  align-items: end;
+  justify-content: end;
+  width: 250px;
+  border-radius: 10px;
+}
+.img-card {
+  position: relative;
+  z-index: 2;
+  width: 100%;
+  /* height: 200px; */
+  border-radius: 5px;
+  margin-bottom: 10px;
+  /* width: 100px; */
+  /* height: 3000px; */
+}
+.row__loc {
+  display: flex;
+  flex-direction: row;
+  gap: 5px;
+}
+.concert-cards {
+  width: 100%;
+  display: flex;
+  overflow-x: auto;
+  scroll-snap-type: x mandatory; /* Для "застревания" карточек при прокрутке */
+  scroll-behavior: smooth; /* Анимируем прокрутку */
+}
+
+.concert-card {
+  position: relative;
+  min-width: 200px; /* Устанавливаем ширину карточки */
+  padding: 15px;
+  text-align: center;
+  scroll-snap-align: center; /* Центрируем карточку при прокрутке */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 550px;
+}
+
+.concert-card h3 {
+  font-size: 18px;
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+.concert-card p {
+  font-size: 14px;
+  margin-bottom: 5px;
+}
+
+.book___btn {
+  display: flex;
+  font-size: 14px;
+  background-color: #dcedff;
+  color: #3337BF;
+  border: none;
+  border-bottom-left-radius: 5px;
+  border-bottom-right-radius: 5px;
+  cursor: pointer;
+  width: 250px;
+  height: 40px;
+  justify-content: center;
+  align-items: center;
+}
+
+.book___btn:hover {
+  background-color: #68adf6;
+}
+
+.prev-btn,
+.next-btn {
+  position: absolute;
+  top: 50%;
+  background-color: rgba(0, 0, 0, 0.5);
+  color: #fff;
+  font-size: 24px;
+  padding: 10px;
+  border: none;
+  border-radius: 50%;
+  cursor: pointer;
+  transform: translateY(-50%);
+  z-index: 10;
+}
+
+.prev-btn {
+  left: 10px;
+}
+
+.next-btn {
+  right: 10px;
+}
+
+.prev-btn:hover,
+.next-btn:hover {
+  background-color: rgba(0, 0, 0, 0.7);
+}
+
+.swiper-slide {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
